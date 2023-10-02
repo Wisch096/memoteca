@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class ListarPensamentosComponent {
 
-  listaPensamentos = []
+  listaPensamentos = [
+    {
+      conteudo: 'Comunicação entre componentes',
+      autoria: 'Angular',
+      modelo: 'modelo3'
+    }
+  ]
 
 }
