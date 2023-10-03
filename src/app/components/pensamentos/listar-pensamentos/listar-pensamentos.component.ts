@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Pensamento } from '../pensamento';
 
 @Component({
   selector: 'app-listar-pensamentos',
@@ -7,12 +8,6 @@ import { Component } from '@angular/core';
 })
 export class ListarPensamentosComponent {
 
-  listaPensamentos = [
-    {
-      conteudo: 'Comunicação entre componentes',
-      autoria: 'Angular',
-      modelo: 'modelo3'
-    }
-  ]
+  listaPensamentos: Pensamento[] = []
 
 }
